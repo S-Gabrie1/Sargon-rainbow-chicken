@@ -22,7 +22,7 @@ let  foo = function(x:string):string {
     return (`hello ${x}`);
 }
 
-console.log(foo("rick"));
+
 
 for (let i = 0; i < Animals.length; i++) {
     console.log(foo(Animals[i]));
