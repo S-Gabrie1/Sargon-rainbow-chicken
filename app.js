@@ -7,3 +7,10 @@ const employee = {
     anställd: true
 };
 console.log(employee);
+let foo = function (x) {
+    return (`hello ${x}`);
+};
+console.log(foo("rick"));
+for (let i = 0; i < Animals.length; i++) {
+    console.log(foo(Animals[i]));
+}
